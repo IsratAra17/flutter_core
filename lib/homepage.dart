@@ -24,6 +24,14 @@ class HomePage extends StatelessWidget {
 
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        elevation: 10,
+        child:Icon(Icons.add),
+        backgroundColor: Colors.green,
+        onPressed: (){MySnackBar("Floating button Clicked", context);},
+
+      ),
+
       
     );
   }
