@@ -31,8 +31,29 @@ class HomePage extends StatelessWidget {
         onPressed: (){MySnackBar("Floating button Clicked", context);},
 
       ),
+bottomNavigationBar: BottomNavigationBar(
+  currentIndex: 0,
+    items: [
+      BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
+      BottomNavigationBarItem(icon: Icon(Icons.person),label: "Person"),
+      BottomNavigationBarItem(icon: Icon(Icons.wifi_calling),label: "Call")
+    ],
+ onTap: (int index){
+   if(index==0)
+   {
+     MySnackBar("bottom home", context);
+   }
+   else if(index==1){
+     MySnackBar("bottom home", context);
 
-      
+   }
+   else if(index==2){
+     MySnackBar("bottom home", context);
+
+   }
+ },
+),
+
     );
   }
 }
