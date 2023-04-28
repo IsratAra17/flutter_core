@@ -53,6 +53,20 @@ bottomNavigationBar: BottomNavigationBar(
    }
  },
 ),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(child: Text("S M Israt Ara")),
+
+            ListTile(leading:Icon(Icons.home) ,title:Text("Home") ,trailing:Icon(Icons.location_on)),
+            ListTile(leading:Icon(Icons.home) ,title:Text("Home") ,trailing:Icon(Icons.location_on)),
+            ListTile(leading:Icon(Icons.home) ,title:Text("Home") ,trailing:Icon(Icons.location_on)),
+            ListTile(leading:Icon(Icons.home) ,title:Text("Home") ,trailing:Icon(Icons.location_on)),
+          ],
+          
+        ),
+
+      ),
 
     );
   }
