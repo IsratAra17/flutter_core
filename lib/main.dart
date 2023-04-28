@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_core/homepage.dart';
+import 'package:flutter_core/simple_form.dart';
 
 import 'aleart_dialog.dart';
 import 'all_buttons.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue,),
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(primarySwatch: Colors.blue),
-      home: Alert_Dialog(),
+      home: Simple_Form(),
     );
   }
 }
