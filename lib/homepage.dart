@@ -93,6 +93,39 @@ currentAccountPicture: Image.network(
           ],
         ),
       ),
+      endDrawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(
+              padding: EdgeInsets.all(10),
+                child: UserAccountsDrawerHeader(
+
+                    decoration: BoxDecoration(color: Colors.white),
+                    accountName: Text("S M Israt Ara",style:TextStyle(color:Colors.green)),
+                    accountEmail: Text("smisrataara@gmail.com",style:TextStyle(color:Colors.green)),
+currentAccountPicture: Image.network(
+"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"),
+                  onDetailsPressed: (){MySnackBar("profile pressed", context);},
+                )),
+            ListTile(
+                leading: Icon(Icons.home),
+                title: Text("Home"),
+                trailing: Icon(Icons.location_on)),
+            ListTile(
+                leading: Icon(Icons.home),
+                title: Text("Home"),
+                trailing: Icon(Icons.location_on)),
+            ListTile(
+                leading: Icon(Icons.home),
+                title: Text("Home"),
+                trailing: Icon(Icons.location_on)),
+            ListTile(
+                leading: Icon(Icons.home),
+                title: Text("Home"),
+                trailing: Icon(Icons.location_on)),
+          ],
+        ),
+      ),
     );
   }
 }
