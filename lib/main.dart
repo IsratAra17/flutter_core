@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_core/Navigator/Navmain.dart';
 import 'package:flutter_core/homepage.dart';
 import 'package:flutter_core/listviewBuilder.dart';
 import 'package:flutter_core/simple_form.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue,),
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(primarySwatch: Colors.blue),
-      home: Tab_Bar_TV_fragment()
+      home: Nav_main()
     );
   }
 }
