@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_core/All_Responsive/mediaQuery.dart';
 import 'package:flutter_core/All_Responsive/responsive.dart';
 import 'package:flutter_core/Navigator/Navmain.dart';
 import 'package:flutter_core/homepage.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue,),
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(primarySwatch: Colors.blue),
-      home: Responsive()
+      home: Meadia_Query()
     );
   }
 }
